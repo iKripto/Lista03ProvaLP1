@@ -34,9 +34,10 @@ javac NomeDoPrograma.java
 java NomeDoPrograma
 ```
 
+
 ---
 
-<p>Este projeto aplica os principais conceitos da Programação Orientada a Objetos:
+<p>Em relação aos paradigmas da orientação a objetos:
 
 - **Classe**: As operações são feitas na classe principal.
 - **Objeto**: instanciado em `App.java`
