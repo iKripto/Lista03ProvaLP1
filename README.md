@@ -41,6 +41,6 @@ java NomeDoPrograma
 - **Classe**: As operações são feitas na classe principal.
 - **Objeto**: instanciado em `App.java`
 - **Encapsulamento**: Encapsulamento não foi implementado a pedido do professor.
-- **Abstração**: operações ocultas por métodos
+- **Abstração**: Abstração não implementada.
 
 ---
