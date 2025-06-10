@@ -18,6 +18,9 @@ public class App {
         if (media.isReprovado()) {
             System.out.println("REPROVADO");
         }
+        if (!media.isReprovado()){
+            System.out.println("APROVADO");
+        }
 
         sc.close();
     }
