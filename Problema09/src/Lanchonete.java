@@ -16,7 +16,7 @@ public class Lanchonete {
             case 3: preco = 4.80; break;
             case 4: preco = 8.90; break;
             case 5: preco = 7.32; break;
-            default: preco = 0.0; // código inválido pode ser tratado se quiser
+            default: preco = 0.0;
         }
 
         return preco * quantidade;
