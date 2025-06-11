@@ -1,19 +1,20 @@
-public class DuracaoJogo {
-    private int horaInicial;
-    private int horaFinal;
+import java.util.Scanner;
 
-    public DuracaoJogo(int horaInicial, int horaFinal) {
-        this.horaInicial = horaInicial;
-        this.horaFinal = horaFinal;
-    }
+public class App {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
 
-    public int calcularDuracao() {
-        if (horaInicial == horaFinal) {
-            return 24;
-        } else if (horaInicial < horaFinal) {
-            return horaFinal - horaInicial;
-        } else {
-            return 24 - horaInicial + horaFinal;
-        }
+        System.out.print("Hora inicial: ");
+        int inicio = sc.nextInt();
+
+        System.out.print("Hora final: ");
+        int fim = sc.nextInt();
+
+        DuracaoJogo jogo = new DuracaoJogo(inicio, fim);
+        int duracao = jogo.calcularDuracao();
+
+        System.out.println("O JOGO DUROU " + duracao + " HORA(S)");
+
+        sc.close();
     }
 }
