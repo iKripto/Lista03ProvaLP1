@@ -1,7 +1,7 @@
 <h1>Prova de orientação a Objetos</h1>
 <p>Lista de atividades da primeira prova de java da matéria de linguagens de programação I.<br>
 Por Yago Siqueira Nascimento, segundo ano, turma 1.
-/</p>
+</p>
 ---
 <h1>Linguagem usada</h1>
 <p>- Java 24.0.1</p>
